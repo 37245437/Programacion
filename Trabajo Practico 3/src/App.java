@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Meses");
-        System.out.println();
+        System.out.println("\nMeses\n");
         int mes;
         System.out.println("Escribe un numero entre 1 y 12");
         Scanner myObjet = new Scanner (System.in);
@@ -47,12 +46,9 @@ public class App {
             break;
             default :
             System.out.println("El numero ingresado no es correcto");
-        }    
+        }
 
-        System.out.println();
-
-        System.out.println("Tabla de multiplicacion");
-        System.out.println();
+        System.out.println("\nTabla de multiplicacion\n");
         int n1, n2;
         int multiplicador = 1;
         System.out.println ("Ingrese un numero entero del 1 al 10");
@@ -68,10 +64,7 @@ public class App {
             System.out.println ("El numero ingresado es incorrecto");
         }
 
-        System.out.println();
-
-        System.out.println("Tabla de multiplicacion");
-        System.out.println();
+        System.out.println("\nTabla de multiplicacion\n");
         int n3, n4;
         int multiplicador1 = 1;
         System.out.println ("Ingrese un numero entero del 1 al 10");
@@ -87,10 +80,8 @@ public class App {
         }else {
             System.out.println ("El numero ingresado es incorrecto");
         }
-
-        System.out.println();
-
-        System.out.println("Promedio");
+        
+        System.out.println("\nPromedio\n");
         System.out.println();
         double acumulador = 0;
         double promedio, numero;

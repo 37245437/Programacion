@@ -5,7 +5,7 @@ public class App {
         System.out.println("Hello, World!");
         
         //Ejercicio 1
-        System.out.println("Solucion Suma");
+        System.out.println("\nSolucion Suma\n");
         int num1, num2, resultado;
         Scanner myObjet = new Scanner (System.in);
         System.out.println("Escriba un numero entero");
@@ -14,11 +14,9 @@ public class App {
         num2 = myObjet.nextInt ();
         resultado = num1 + num2;
         System.out.println("El resultado es " + resultado);
-        
-        System.out.println(" ");
 
         //Ejercicio 2
-        System.out.println("Ingresar");
+        System.out.println("\nIngresar\n");
         String usuario, contrasena;
         System.out.println("Ingresar usuario");
         usuario = myObjet.next();
@@ -29,11 +27,9 @@ public class App {
         } else {
             System.out.println("Error de Ususario o contraseña");
         }
-       
-        System.out.println(" ");
 
         //Ejercicio 3
-        System.out.println("¿Entramos en el aula?");
+        System.out.println("\n¿Entramos en el aula?\n");
         int alumnos, bancos;
         System.out.println("Cantidad de alumnos");
         alumnos = myObjet.nextInt();
@@ -46,11 +42,9 @@ public class App {
         }else if (alumnos < bancos) {
             System.out.println("Sobran Bancos");
         }
-        
-        System.out.println(" ");
 
         //Ejercicio 4
-        System.out.println("Descuento");
+        System.out.println("\nDescuento\n");
         Double monto, desc;
         int fdep;
         System.out.println("Precio del Producto");

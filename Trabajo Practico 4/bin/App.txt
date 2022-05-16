@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args){
+        
+        Scanner myObject = new Scanner (System.in);
+
+        System.out.println("\nGrados\n");
+        double centigrados, fahrenheit;
+        System.out.println("Introdusca los grados en ºC ");
+        centigrados = myObject.nextDouble();
+        fahrenheit = 32 + (9* centigrados / 5);
+        System.out.println("\nLa equivalencia en ºF es " + fahrenheit);
+
+
+        System.out.println("\nContraseña\n");
+        int intento, contrasena = 5689, veces = 0;
+        do {
+            System.out.println("Ingrese la contraseña");
+            intento = myObject.nextInt();
+            veces++;
+            if (intento != contrasena) {
+                System.out.println("\nContraseña incorrecta");
+                System.out.println("Ingrese la contraseña");
+                intento = myObject.nextInt();
+            }else {
+                System.out.println("\nAcceso correcto\nBienvenido!");
+            }
+        }while (veces == contrasena);
+
+        myObject.close();
+
+    }
+}

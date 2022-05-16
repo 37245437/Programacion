@@ -6,7 +6,7 @@ public class App {
 
         //Ejercicio 1
         Scanner elObj = new Scanner (System.in);
-        System.out.println("Intercambio de variables");
+        System.out.println("\nIntercambio de variables\n");
         System.out.println("Ingresa un numero");
         int  varA = elObj.nextInt();
         System.out.println("Ingresa otro numero");
@@ -16,11 +16,9 @@ public class App {
         int variB = vari0 - varB;
         int variA = vari0 - varA;
         System.out.println("Intercambio de variables A= " + variA + " B= " + variB);
-        
-        System.out.println(" ");
 
         //Ejercicio 2
-        System.out.println("Operaciones Basicas");
+        System.out.println("\nOperaciones Basicas\n");
         System.out.println("Ingresa un numero");
         Double  num1 = elObj.nextDouble();
         System.out.println("Ingresa otro numero");
@@ -32,10 +30,8 @@ public class App {
         Double suma = num1 + num2, resta = num1 - num2, mult = num1 * num2, div = num1 / num2;
         System.out.println("Resultado suma " + suma + ", resta " + resta + ", multiplicacion " + mult + ", division " + div);
 
-        System.out.println(" ");
-
         //Ejercicio 3
-        System.out.println("Cual es mayor");
+        System.out.println("\nCual es mayor\n");
         System.out.println("Ingresa 1er numero");
         int  num3 = elObj.nextInt();
         System.out.println("Ingresa 2do numero");
@@ -48,10 +44,8 @@ public class App {
             System.out.println("El 2do numero ingresado es mayor " + num4);
         }
 
-        System.out.println(" ");
-
         //Ejercicio 4
-        System.out.println("Cual es mayor");
+        System.out.println("\nCual es mayor\n");
         System.out.println("Ingresa el 1er numero");
         int  num5 = elObj.nextInt();
         System.out.println("Ingresa el 2do nueero");
@@ -69,7 +63,7 @@ public class App {
         System.out.println(" ");
 
         //Ejercicio 5
-        System.out.println("Operaciones con condiciones");
+        System.out.println("\nOperaciones con condiciones\n");
         System.out.println("Ingresa el 1er numero");
         int  num8 = elObj.nextInt();
         System.out.println("Ingresa el 2do numero");
